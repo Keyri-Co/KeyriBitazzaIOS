@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB9E792A7F929BFFDADC747 /* Pods_Bitazza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76645F5178B83C0690B47867 /* Pods_Bitazza.framework */; };
+		2047569B2936AEAE0069EACE /* BitazzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047569A2936AEAE0069EACE /* BitazzaApp.swift */; };
+		2047569D2936AEAE0069EACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047569C2936AEAE0069EACE /* ContentView.swift */; };
+		2047569F2936AEAF0069EACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2047569E2936AEAF0069EACE /* Assets.xcassets */; };
+		204756A22936AEAF0069EACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204756A12936AEAF0069EACE /* Preview Assets.xcassets */; };
+		204756AC2936AEAF0069EACE /* BitazzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204756AB2936AEAF0069EACE /* BitazzaTests.swift */; };
+		204756B62936AEAF0069EACE /* BitazzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204756B52936AEAF0069EACE /* BitazzaUITests.swift */; };
+		204756B82936AEAF0069EACE /* BitazzaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204756B72936AEAF0069EACE /* BitazzaUITestsLaunchTests.swift */; };
+		204756C5293790AD0069EACE /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204756C4293790AD0069EACE /* SocketManager.swift */; };
+		2EA100A363EC70A0111B0310 /* Pods_BitazzaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BE8C76DE92D5217CD94394 /* Pods_BitazzaTests.framework */; };
+		F5029E80DCFF8D1FFA026867 /* Pods_Bitazza_BitazzaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E373ADA34233DB24BD155A9 /* Pods_Bitazza_BitazzaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		204756A82936AEAF0069EACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2047568F2936AEAE0069EACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204756962936AEAE0069EACE;
+			remoteInfo = Bitazza;
+		};
+		204756B22936AEAF0069EACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2047568F2936AEAE0069EACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204756962936AEAE0069EACE;
+			remoteInfo = Bitazza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204756972936AEAE0069EACE /* Bitazza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitazza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2047569A2936AEAE0069EACE /* BitazzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitazzaApp.swift; sourceTree = "<group>"; };
+		2047569C2936AEAE0069EACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2047569E2936AEAF0069EACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		204756A12936AEAF0069EACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		204756A72936AEAF0069EACE /* BitazzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitazzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204756AB2936AEAF0069EACE /* BitazzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitazzaTests.swift; sourceTree = "<group>"; };
+		204756B12936AEAF0069EACE /* BitazzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitazzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204756B52936AEAF0069EACE /* BitazzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitazzaUITests.swift; sourceTree = "<group>"; };
+		204756B72936AEAF0069EACE /* BitazzaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitazzaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		204756C4293790AD0069EACE /* SocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		2E373ADA34233DB24BD155A9 /* Pods_Bitazza_BitazzaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitazza_BitazzaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AB04578B3441FAA23BBC26 /* Pods-Bitazza-BitazzaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitazza-BitazzaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bitazza-BitazzaUITests/Pods-Bitazza-BitazzaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3C3D2A5E7A6F4E27ED5C05 /* Pods-BitazzaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitazzaTests.release.xcconfig"; path = "Target Support Files/Pods-BitazzaTests/Pods-BitazzaTests.release.xcconfig"; sourceTree = "<group>"; };
+		3ABEC7BBDB10033D73FAEE6C /* Pods-Bitazza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitazza.debug.xcconfig"; path = "Target Support Files/Pods-Bitazza/Pods-Bitazza.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4135995E972D0C29BCFA00 /* Pods-Bitazza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitazza.release.xcconfig"; path = "Target Support Files/Pods-Bitazza/Pods-Bitazza.release.xcconfig"; sourceTree = "<group>"; };
+		70BE8C76DE92D5217CD94394 /* Pods_BitazzaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitazzaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76645F5178B83C0690B47867 /* Pods_Bitazza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitazza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6BC9F65D04C0F28A29235F /* Pods-Bitazza-BitazzaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitazza-BitazzaUITests.release.xcconfig"; path = "Target Support Files/Pods-Bitazza-BitazzaUITests/Pods-Bitazza-BitazzaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0A7589958811529353E21FC /* Pods-BitazzaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitazzaTests.debug.xcconfig"; path = "Target Support Files/Pods-BitazzaTests/Pods-BitazzaTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204756942936AEAE0069EACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB9E792A7F929BFFDADC747 /* Pods_Bitazza.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204756A42936AEAF0069EACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA100A363EC70A0111B0310 /* Pods_BitazzaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204756AE2936AEAF0069EACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5029E80DCFF8D1FFA026867 /* Pods_Bitazza_BitazzaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1070D8D287FF7150E875AF17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEC7BBDB10033D73FAEE6C /* Pods-Bitazza.debug.xcconfig */,
+				3D4135995E972D0C29BCFA00 /* Pods-Bitazza.release.xcconfig */,
+				33AB04578B3441FAA23BBC26 /* Pods-Bitazza-BitazzaUITests.debug.xcconfig */,
+				9F6BC9F65D04C0F28A29235F /* Pods-Bitazza-BitazzaUITests.release.xcconfig */,
+				E0A7589958811529353E21FC /* Pods-BitazzaTests.debug.xcconfig */,
+				3A3C3D2A5E7A6F4E27ED5C05 /* Pods-BitazzaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2047568E2936AEAE0069EACE = {
+			isa = PBXGroup;
+			children = (
+				204756992936AEAE0069EACE /* Bitazza */,
+				204756AA2936AEAF0069EACE /* BitazzaTests */,
+				204756B42936AEAF0069EACE /* BitazzaUITests */,
+				204756982936AEAE0069EACE /* Products */,
+				1070D8D287FF7150E875AF17 /* Pods */,
+				3805C6004A547EEE6B327282 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		204756982936AEAE0069EACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204756972936AEAE0069EACE /* Bitazza.app */,
+				204756A72936AEAF0069EACE /* BitazzaTests.xctest */,
+				204756B12936AEAF0069EACE /* BitazzaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204756992936AEAE0069EACE /* Bitazza */ = {
+			isa = PBXGroup;
+			children = (
+				2047569A2936AEAE0069EACE /* BitazzaApp.swift */,
+				2047569C2936AEAE0069EACE /* ContentView.swift */,
+				2047569E2936AEAF0069EACE /* Assets.xcassets */,
+				204756A02936AEAF0069EACE /* Preview Content */,
+				204756C4293790AD0069EACE /* SocketManager.swift */,
+			);
+			path = Bitazza;
+			sourceTree = "<group>";
+		};
+		204756A02936AEAF0069EACE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				204756A12936AEAF0069EACE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		204756AA2936AEAF0069EACE /* BitazzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				204756AB2936AEAF0069EACE /* BitazzaTests.swift */,
+			);
+			path = BitazzaTests;
+			sourceTree = "<group>";
+		};
+		204756B42936AEAF0069EACE /* BitazzaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				204756B52936AEAF0069EACE /* BitazzaUITests.swift */,
+				204756B72936AEAF0069EACE /* BitazzaUITestsLaunchTests.swift */,
+			);
+			path = BitazzaUITests;
+			sourceTree = "<group>";
+		};
+		3805C6004A547EEE6B327282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76645F5178B83C0690B47867 /* Pods_Bitazza.framework */,
+				2E373ADA34233DB24BD155A9 /* Pods_Bitazza_BitazzaUITests.framework */,
+				70BE8C76DE92D5217CD94394 /* Pods_BitazzaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204756962936AEAE0069EACE /* Bitazza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204756BB2936AEAF0069EACE /* Build configuration list for PBXNativeTarget "Bitazza" */;
+			buildPhases = (
+				CEF2DCA0BFFF6EA1EA085C71 /* [CP] Check Pods Manifest.lock */,
+				204756932936AEAE0069EACE /* Sources */,
+				204756942936AEAE0069EACE /* Frameworks */,
+				204756952936AEAE0069EACE /* Resources */,
+				C32A98F0D1F430B99541A4E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bitazza;
+			productName = Bitazza;
+			productReference = 204756972936AEAE0069EACE /* Bitazza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204756A62936AEAF0069EACE /* BitazzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204756BE2936AEAF0069EACE /* Build configuration list for PBXNativeTarget "BitazzaTests" */;
+			buildPhases = (
+				4589C25D20039F66D3BFF799 /* [CP] Check Pods Manifest.lock */,
+				204756A32936AEAF0069EACE /* Sources */,
+				204756A42936AEAF0069EACE /* Frameworks */,
+				204756A52936AEAF0069EACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204756A92936AEAF0069EACE /* PBXTargetDependency */,
+			);
+			name = BitazzaTests;
+			productName = BitazzaTests;
+			productReference = 204756A72936AEAF0069EACE /* BitazzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		204756B02936AEAF0069EACE /* BitazzaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204756C12936AEAF0069EACE /* Build configuration list for PBXNativeTarget "BitazzaUITests" */;
+			buildPhases = (
+				695D21D38171D21E0F45311F /* [CP] Check Pods Manifest.lock */,
+				204756AD2936AEAF0069EACE /* Sources */,
+				204756AE2936AEAF0069EACE /* Frameworks */,
+				204756AF2936AEAF0069EACE /* Resources */,
+				F3783DA969A26644912BD8D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204756B32936AEAF0069EACE /* PBXTargetDependency */,
+			);
+			name = BitazzaUITests;
+			productName = BitazzaUITests;
+			productReference = 204756B12936AEAF0069EACE /* BitazzaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2047568F2936AEAE0069EACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					204756962936AEAE0069EACE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					204756A62936AEAF0069EACE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 204756962936AEAE0069EACE;
+					};
+					204756B02936AEAF0069EACE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 204756962936AEAE0069EACE;
+					};
+				};
+			};
+			buildConfigurationList = 204756922936AEAE0069EACE /* Build configuration list for PBXProject "Bitazza" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2047568E2936AEAE0069EACE;
+			productRefGroup = 204756982936AEAE0069EACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204756962936AEAE0069EACE /* Bitazza */,
+				204756A62936AEAF0069EACE /* BitazzaTests */,
+				204756B02936AEAF0069EACE /* BitazzaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204756952936AEAE0069EACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204756A22936AEAF0069EACE /* Preview Assets.xcassets in Resources */,
+				2047569F2936AEAF0069EACE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204756A52936AEAF0069EACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204756AF2936AEAF0069EACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4589C25D20039F66D3BFF799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitazzaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		695D21D38171D21E0F45311F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitazza-BitazzaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32A98F0D1F430B99541A4E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitazza/Pods-Bitazza-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitazza/Pods-Bitazza-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitazza/Pods-Bitazza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF2DCA0BFFF6EA1EA085C71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitazza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3783DA969A26644912BD8D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitazza-BitazzaUITests/Pods-Bitazza-BitazzaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitazza-BitazzaUITests/Pods-Bitazza-BitazzaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitazza-BitazzaUITests/Pods-Bitazza-BitazzaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204756932936AEAE0069EACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2047569D2936AEAE0069EACE /* ContentView.swift in Sources */,
+				204756C5293790AD0069EACE /* SocketManager.swift in Sources */,
+				2047569B2936AEAE0069EACE /* BitazzaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204756A32936AEAF0069EACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204756AC2936AEAF0069EACE /* BitazzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204756AD2936AEAF0069EACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204756B82936AEAF0069EACE /* BitazzaUITestsLaunchTests.swift in Sources */,
+				204756B62936AEAF0069EACE /* BitazzaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204756A92936AEAF0069EACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204756962936AEAE0069EACE /* Bitazza */;
+			targetProxy = 204756A82936AEAF0069EACE /* PBXContainerItemProxy */;
+		};
+		204756B32936AEAF0069EACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204756962936AEAE0069EACE /* Bitazza */;
+			targetProxy = 204756B22936AEAF0069EACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204756B92936AEAF0069EACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		204756BA2936AEAF0069EACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204756BC2936AEAF0069EACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABEC7BBDB10033D73FAEE6C /* Pods-Bitazza.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bitazza/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need for QR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.Bitazza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		204756BD2936AEAF0069EACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4135995E972D0C29BCFA00 /* Pods-Bitazza.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bitazza/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need for QR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.Bitazza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		204756BF2936AEAF0069EACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A7589958811529353E21FC /* Pods-BitazzaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.BitazzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitazza.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bitazza";
+			};
+			name = Debug;
+		};
+		204756C02936AEAF0069EACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3C3D2A5E7A6F4E27ED5C05 /* Pods-BitazzaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.BitazzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitazza.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bitazza";
+			};
+			name = Release;
+		};
+		204756C22936AEAF0069EACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AB04578B3441FAA23BBC26 /* Pods-Bitazza-BitazzaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.BitazzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bitazza;
+			};
+			name = Debug;
+		};
+		204756C32936AEAF0069EACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6BC9F65D04C0F28A29235F /* Pods-Bitazza-BitazzaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.BitazzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bitazza;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204756922936AEAE0069EACE /* Build configuration list for PBXProject "Bitazza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204756B92936AEAF0069EACE /* Debug */,
+				204756BA2936AEAF0069EACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204756BB2936AEAF0069EACE /* Build configuration list for PBXNativeTarget "Bitazza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204756BC2936AEAF0069EACE /* Debug */,
+				204756BD2936AEAF0069EACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204756BE2936AEAF0069EACE /* Build configuration list for PBXNativeTarget "BitazzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204756BF2936AEAF0069EACE /* Debug */,
+				204756C02936AEAF0069EACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204756C12936AEAF0069EACE /* Build configuration list for PBXNativeTarget "BitazzaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204756C22936AEAF0069EACE /* Debug */,
+				204756C32936AEAF0069EACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2047568F2936AEAE0069EACE /* Project object */;
+}
